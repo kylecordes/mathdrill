@@ -1,0 +1,12 @@
+*.~*
+*.*~
+*.bak
+*.exe
+*.local
+*.res
+*.dcu
+*.ini
+__history
+*.identcache
+.svn
+*.swp
