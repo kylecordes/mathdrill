@@ -105,9 +105,9 @@ object MathFlashCardForm: TMathFlashCardForm
         object Label10: TLabel
           Left = 12
           Top = 8
-          Width = 285
+          Width = 317
           Height = 14
-          Caption = 'Copyright 2007 Kyle Cordes - http://kylecordes.com'
+          Caption = 'Copyright 2007-2008 Kyle Cordes - http://kylecordes.com'
         end
         object Label6: TLabel
           Left = 12
@@ -350,8 +350,8 @@ object MathFlashCardForm: TMathFlashCardForm
       object AllDoneLabel: TLabel
         Left = 304
         Top = 256
-        Width = 266
-        Height = 73
+        Width = 263
+        Height = 72
         Caption = 'All Done!'
         Font.Charset = ANSI_CHARSET
         Font.Color = clWindowText
@@ -404,5 +404,8 @@ object MathFlashCardForm: TMathFlashCardForm
     Enabled = False
     OnTimer = MessageTimerTimer
     Left = 224
+  end
+  object XPManifest1: TXPManifest
+    Left = 288
   end
 end

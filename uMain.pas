@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, ExtCtrls, StdCtrls, ComCtrls;
+  Dialogs, ExtCtrls, StdCtrls, ComCtrls, XPMan;
 
 const
   WM_AFTER = WM_USER + 435;
@@ -58,6 +58,7 @@ type
     Label6: TLabel;
     Label9: TLabel;
     Label11: TLabel;
+    XPManifest1: TXPManifest;
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure CountdownTimerTimer(Sender: TObject);
